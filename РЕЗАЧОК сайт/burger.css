@@ -1,0 +1,66 @@
+
+.menu{
+  	font-size: 20px;
+	font-family: Circe Extra Light;
+
+
+
+}
+.na{
+	display: none;
+}
+.sornasor{
+	display: none;
+}
+.menuToggle{
+	display: none;
+}
+@media (max-width: 800px) and (min-width: 1px) {
+	.menuToggle{
+		display: flex;
+	}
+	.menu {
+		flex-direction: column;
+		margin-left: -10%;
+		display: none;
+margin-top:-30%;
+		transition: opacity 0.2s linear, margin-top 0.5s linear;
+
+	}
+.sornasor{
+	margin-left:15%;
+	width: 48px;
+	height: 48px;
+	display: none;
+}
+.na{
+	width: 30%;
+	font-size:15px;
+}
+	.Menu {
+padding-bottom: 0;
+		width: 150%;
+		margin-left: -20%;
+	}
+#un-h1{
+	color: black;
+}
+	 li a {
+		color: black;
+	}
+
+	.poburg {
+		color: black;
+	}
+	.container-row{
+		display: flex;
+		width: 100%;
+	}
+	.menuToggle{
+		width: 40%;
+		margin-left:15%;
+	}
+	#un-h1{
+		margin-left:-8%;
+	}
+}
